@@ -11,5 +11,7 @@ buildExpired: false
 hasCJKLanguage: true
 disqusShortname: hugo-theme-stack
 
+# 本地下载go module时使用
 # module:
 #   proxy: https://goproxy.cn
+

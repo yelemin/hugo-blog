@@ -1,0 +1,25 @@
+# Configure main menu and social menu
+#main:
+#  - identifier: home
+#    name: Home
+#    url: /
+#    params:
+#      icon: home
+#      newtab: true
+
+social:
+  - identifier: github
+    name: GitHub
+    url: https://github.com/yelemin
+    params:
+      icon: brand-github
+  - identifier: qq
+    name: QQ
+    url: images/qq.png
+    params:
+      icon: brand-qq
+  - identifier: wechat
+    name: WeChat
+    url: images/wechat.png
+    params:
+      icon: brand-wechat
