@@ -16,7 +16,7 @@ filename: index
 lastmod: 
 lang: cn
 cover:
-    image: '"https://cos-1-1304819371.cos.ap-beijing.myqcloud.com/pic-go/WeChat735b0c9bb69b5ba653e29a813f6053dc.png?imageSlim"'
+    image: 'https://cos-1-1304819371.cos.ap-beijing.myqcloud.com/pic-go/WeChat735b0c9bb69b5ba653e29a813f6053dc.png?imageSlim'
 author: 
 dir: post/P-R曲线、ROC曲线、AUC及代价(CC)曲线5
 categories:
