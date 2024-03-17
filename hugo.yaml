@@ -55,6 +55,8 @@ params:
   hideDescription: true
   showtoc: true
   tocopen: false
+  Permalink: "https://www.flyingwhale.site/"
+  url: "https://www.flyingwhale.site/"
   # 网站左上角的文字和图标配置
   label:
     text: 
