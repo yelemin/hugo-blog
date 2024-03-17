@@ -1,5 +1,6 @@
 baseURL: "https://www.flyingwhale.site/"
-title: PrintLove
+bind: "0.0.0.0"
+title: FlyingWhale
 paginate: 10
 theme: ["PaperMod"]
 languageCode: zh-cn
@@ -19,7 +20,7 @@ minify:
 copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: PrintLove
+  title: FlyingWhale
   description: "记录程序猿的个人故事。"
   keywords: []
   author: ["Flying Whale"]
