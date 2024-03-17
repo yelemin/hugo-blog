@@ -1,8 +1,8 @@
 ---
 date: 2024-03-17
 tags:
-  - Example
-  - Tag
+  - 机器学习
+  - python
 title: P-R曲线、ROC曲线、AUC及代价(CC)曲线5
 description: 
 slug: 23:15
@@ -19,10 +19,10 @@ image: https://cos-1-1304819371.cos.ap-beijing.myqcloud.com/pic-go/WeChat735b0c9
 author: 
 dir: post/P-R曲线、ROC曲线、AUC及代价(CC)曲线5
 categories:
-  - Example Category
+  - 机器学习
 weight: 1
 ---
-测试
+
 
 **
 
