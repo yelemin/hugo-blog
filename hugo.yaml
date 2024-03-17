@@ -1,5 +1,5 @@
-baseURL: "https://www.flyingwhale.site/"
-bind: "0.0.0.0"
+baseURL: https://www.flyingwhale.site
+bind: 0.0.0.0
 title: FlyingWhale
 paginate: 10
 theme: ["PaperMod"]
