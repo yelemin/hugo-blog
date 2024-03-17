@@ -19,11 +19,11 @@ copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/l
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: PrintLove
-  description: "go语言学习免费教程、go语言微服务开发，以及程序猿的个人故事。"
-  keywords: ["printlove", "go", "golang", "go语言" , "微服务", "go教程"]
-  author: ["Evan Miao"]
+  description: "记录程序猿的个人故事。"
+  keywords: []
+  author: ["Flying Whale"]
   # images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "2006-01-02"
+  DateFormat: "2023-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   # 给图片增加 CDN 前缀
@@ -83,20 +83,14 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi! I'm Evan Miao \U0001F44B"
+    Title: "Hi! I'm Flying Whale \U0001F44B"
     Content: "一名想热爱生活的程序员 - **[进一步了解我](/about)**"
 
   socialIcons:
-    - name: x
-      url: "https://x.com/laomiao_"
-    - name: telegram
-      url: "https://t.me/evan_share"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/miaogaolin"
-    - name: rss
-      url: "/index.xml"
+      url: "https://github.com/yelemin"
 
   # analytics:
   #   google:
