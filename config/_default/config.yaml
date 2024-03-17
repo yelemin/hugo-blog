@@ -11,5 +11,5 @@ buildExpired: false
 hasCJKLanguage: true
 disqusShortname: hugo-theme-stack
 
-module:
-  proxy: https://goproxy.cn
+# module:
+#   proxy: https://goproxy.cn
