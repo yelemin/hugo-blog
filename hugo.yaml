@@ -4,6 +4,7 @@ title: FlyingWhale
 paginate: 10
 theme: ["PaperMod"]
 languageCode: zh-cn
+Permalink: "https://www.flyingwhale.site/"
 
 enableRobotsTXT: true
 buildDrafts: true
