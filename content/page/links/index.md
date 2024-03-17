@@ -1,10 +1,18 @@
 ---
 title: 链接
 links:
-  - title: GitHub
+  - title: 我的GitHub
     description: GitHub is the world's largest software development platform.
-    website: https://github.com
+    website: https://github.com/yelemin
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Java
+    description: Java官方网站
+    website: https://www.java.com/zh-CN/
+    image: https://cos-1-1304819371.cos.ap-beijing.myqcloud.com/pic-go/20240318012512.png?imageSlim
+  - title: Python
+    description: Python官方网站
+    website: https://www.python.org/
+    image: https://cos-1-1304819371.cos.ap-beijing.myqcloud.com/pic-go/20240318012419.png?imageSlim
 menu:
     main: 
         weight: 4
@@ -14,20 +22,6 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
+很高兴认识你，我的朋友~
 
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+以下是本网站相关链接：

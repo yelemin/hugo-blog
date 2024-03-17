@@ -15,11 +15,11 @@ social:
       icon: brand-github
   - identifier: qq
     name: QQ
-    url: images/qq.png
+    url: /images/qq.png
     params:
       icon: brand-qq
   - identifier: wechat
     name: WeChat
-    url: images/wechat.png
+    url: /images/wechat.png
     params:
       icon: brand-wechat
