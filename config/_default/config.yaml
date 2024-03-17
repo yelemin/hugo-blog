@@ -1,0 +1,15 @@
+baseurl: https://www.flyingwhale.site
+
+languageCode: zh-cn
+paginate: 5
+title: FlyingWhale's Blog
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+hasCJKLanguage: true
+disqusShortname: hugo-theme-stack
+
+module:
+  proxy: https://goproxy.cn
