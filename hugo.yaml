@@ -1,10 +1,8 @@
 baseURL: https://www.flyingwhale.site
-bind: 0.0.0.0
 title: FlyingWhale
 paginate: 10
 theme: ["PaperMod"]
 languageCode: zh-cn
-Permalink: "http://http://76.76.21.21:1313"
 
 enableRobotsTXT: true
 buildDrafts: true
@@ -55,8 +53,6 @@ params:
   hideDescription: true
   showtoc: true
   tocopen: false
-  Permalink: "http://http://76.76.21.21:1313"
-  url: "http://76.76.21.21:1313"
   # 网站左上角的文字和图标配置
   label:
     text: 
