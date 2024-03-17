@@ -968,7 +968,7 @@ $$
         <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/2315/</guid>
-        <description>&lt;p&gt;**&lt;/p&gt;
+        <description>&lt;img src="https://cos-1-1304819371.cos.ap-beijing.myqcloud.com/pic-go/WeChat735b0c9bb69b5ba653e29a813f6053dc.png?imageSlim" alt="Featured image of post P-R曲线、ROC曲线、AUC及代价(CC)曲线5" /&gt;&lt;p&gt;**&lt;/p&gt;
 &lt;h2 id=&#34;p-r曲线&#34;&gt;P-R曲线&lt;/h2&gt;
 &lt;p&gt;**
 解释：P为查准率(precision)，表示真正例数占预测正例数的比例。
