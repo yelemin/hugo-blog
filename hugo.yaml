@@ -1,13 +1,14 @@
 baseURL: "https://www.flyingwhale.site/"
 title: PrintLove
 paginate: 10
-theme: PaperMod
+theme: ["PaperMod"]
 languageCode: zh-cn
 
 enableRobotsTXT: true
 buildDrafts: true
 buildFuture: false
 buildExpired: false
+hasCJKLanguage: true
 
 googleAnalytics: "G-VE0D4BXTS2"
 
@@ -133,16 +134,16 @@ languages:
       posts: /:slug/
     menu:
       main:
-        - name: 文章
+        - name: article
           url: archives
           weight: 1
         # - name: 标签
         #   url: tags
         #   weight: 2
-        - name: 系列
+        - name: series
           url: series
           weight: 2
-        - name: 赞助
+        - name: sponsor
           url: sponsor
           weight: 3
           
