@@ -3,7 +3,7 @@ date: 2024-03-30
 tags:
   - 影评
   - 宫崎骏
-title: 虞美人盛开的山坡
+title: 《虞美人盛开的山坡》观后感
 description: 
 slug: 21:01
 share: true
