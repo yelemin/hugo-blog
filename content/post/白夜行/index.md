@@ -14,7 +14,7 @@ series: 系列
 filename: index
 lastmod: 
 lang: cn
-image: 
+image: https://cos-1-1304819371.cos.ap-beijing.myqcloud.com/pic-go/20240331193402.png?imageSlim
 author: 
 dir: post/白夜行
 categories:
