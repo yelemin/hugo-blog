@@ -163,13 +163,92 @@ ok
 
 ## 分布式缓存
 ### 注解缓存
-```
-todo 待实现
+``` java
+/**
+Spring注解缓存：作用在类或方法上，当调用一个缓存方法时，会将入参和返回结果作为键值对存放在缓存中，下次同样的请求入参从缓存中返回结果
+**/
+
+// Application增加@EnableCaching注解
+
+// 增加缓存配置
+@Configuration  
+public class CacheConfiguration {  
+  
+    @Bean  
+    CacheManager cacheManager() {  
+        return new ConcurrentMapCacheManager("LEAD_DATA");  
+    }  
+  
+}
+
+
+// value必填标识使用已配置缓存的缓存名称,key标识缓存的key（SpringEL表达式）  
+@Cacheable(value = {"LEAD_DATA"}, key = "#id", sync = true)  
+public String getName(Long id) {  
+    System.out.println("没有走缓存");  
+    if (id == 1L) {  
+  
+        return "你好";  
+    }  
+    return "hello";  
+}
+
+public String testInnerCallGetName(Long id) {  
+    return getName(id);  
+}
+
+// 测试用例
+@Test  
+public void testCache() {  
+    String name = userService.getName(1L);  
+    String name1 = userService.getName(1L);  
+    System.out.println(name);  
+    System.out.println(name1);  
+
+	// 类内部其他方法调用加缓存注解的方法，不会走缓存
+    String name4 = userService.testInnerCallGetName(1L);  
+    System.out.println(name4);
+}
+
+/**
+没有走缓存
+你好
+你好
+没有走缓存
+你好
+**/
+
 ```
 
-### Memcache
-```
-todo 待实现
+### Memcached
+``` bash
+/**
+处理请求采用多线程模型
+数据结构仅支持string类型操作，且value限制在1MB以下，过期时间不能超过30天
+必须设置实例的内存上限，淘汰策略：LRU【1.5版本后支持LFU、random】
+官方未提供数据持久化和事务的支持，采用一致性哈希算法集群化，但不支持主从复制只能单点部署
+**/
+
+// 安装 Memcached
+brew install libevent
+brew install memcached
+brew install telnet
+// 启动memcached
+brew services start memcached
+// 连接memcached
+telnet 127.0.0.1 11211
+
+// set设置键值对命令
+// flags为包括键值对的整型参数，用于存储额外信息【没啥用】
+// exptime是以秒为单位的缓存时间，0表示永远缓存
+// bytes标识存储的字节数，注意必须和存储的value实际字节数对应，不然报错
+// value为存储的value数据
+set 键名 flags exptime bytes
+value
+
+// get查看键对应值的命令
+get 键名
+
 ```
 ### Redis
 ```
@@ -188,3 +267,6 @@ https://pdai.tech/md/arch/arch-z-cache.html
 https://juejin.cn/post/6844904199453409294
 https://juejin.cn/post/7257519248054157369
 https://developer.aliyun.com/article/1048470
+https://juejin.cn/post/6931190862295203848
+https://www.cnblogs.com/rxbook/p/17310156.html
+https://cloud.tencent.com/developer/article/1697819
