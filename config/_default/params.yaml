@@ -6,11 +6,6 @@ footer:
   since: 2023
   customText: "Only you can define yourself."
   hideCopyright: false
-  Copyright: [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
-  site.Copyright: [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
-  license:
-    enabled: true
-    default: [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 
 dateFormat:
   published: Jan 02, 2006
