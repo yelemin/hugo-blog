@@ -3,7 +3,7 @@ mainSections:
 rssFullContent: true
 favicon: avatar.png
 footer:
-  hideCopyright: false
+  hideCopyright: true
 ChinaBeianNumber: 赣ICP备2022000922号
 
 dateFormat:

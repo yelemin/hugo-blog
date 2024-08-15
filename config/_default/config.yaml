@@ -11,6 +11,10 @@ buildExpired: false
 hasCJKLanguage: true
 disqusShortname: hugo-theme-stack
 
+params:
+  # 是否显示备案号
+  ChinaBeianNumber: 赣ICP备2022000922号
+
 # 本地下载go module时使用
 # module:
 #   proxy: https://goproxy.cn
