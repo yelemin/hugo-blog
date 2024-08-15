@@ -16,7 +16,7 @@ minify:
   disableXML: true
   minifyOutput: true
 
-copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: FlyingWhale
