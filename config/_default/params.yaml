@@ -18,6 +18,8 @@ sidebar:
     enabled: true
     local: true
     src: img/avatar.png
+site:
+  Copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 
 article:
   math: false
