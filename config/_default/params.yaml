@@ -3,13 +3,8 @@ mainSections:
 rssFullContent: true
 favicon: avatar.png
 footer:
-  since: 2023
   customText: "Only you can define yourself."
   hideCopyright: false
-  site.Copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
-  license:
-    enabled: true
-    default: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 dateFormat:
   published: Jan 02, 2006
   lastUpdated: Jan 02, 2006 15:04 MST
@@ -20,10 +15,7 @@ sidebar:
     enabled: true
     local: true
     src: img/avatar.png
-site:
-  Copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 
-Copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 
 article:
   math: false
