@@ -3,7 +3,6 @@ mainSections:
 rssFullContent: true
 favicon: avatar.png
 footer:
-  since: 2023
   customText: "Only you can define yourself."
   hideCopyright: false
 
