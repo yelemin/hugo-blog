@@ -15,12 +15,15 @@ sidebar:
     enabled: true
     local: true
     src: img/avatar.png
+
+copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
+
 article:
   math: false
   readingTime: true
   license:
     enabled: true
-    default: Licensed under CC BY-NC-SA 4.0
+    default: Licensed under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 widgets:
   homepage:
     - type: search
