@@ -3,6 +3,7 @@ mainSections:
 rssFullContent: true
 favicon: avatar.png
 footer:
+  since: 2023
   customText: "Only you can define yourself."
   hideCopyright: false
   Copyright: [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
