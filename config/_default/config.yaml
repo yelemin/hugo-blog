@@ -10,6 +10,7 @@ buildFuture: false
 buildExpired: false
 hasCJKLanguage: true
 disqusShortname: hugo-theme-stack
+site.Copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
 
 # 本地下载go module时使用
 # module:
