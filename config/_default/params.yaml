@@ -4,7 +4,7 @@ rssFullContent: true
 favicon: avatar.png
 footer:
   customText: "Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)"
-  hideCopyright: true
+  hideCopyright: false
 
 
 dateFormat:
