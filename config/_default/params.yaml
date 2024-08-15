@@ -5,6 +5,8 @@ favicon: avatar.png
 footer:
   since: 2023
   customText: "Only you can define yourself."
+  hideCopyright: false
+  site.Copyright: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
   license:
     enabled: true
     default: Content under license [ICP备案号：赣ICP备2022000922号](https://beian.miit.gov.cn/)
