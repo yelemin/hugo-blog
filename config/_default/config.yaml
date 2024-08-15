@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 hasCJKLanguage: true
 disqusShortname: hugo-theme-stack
-markdownify: true
+Copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">ICP备案号：赣ICP备2022000922号</a>'
 
 # 本地下载go module时使用
 # module:
